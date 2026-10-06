@@ -30,7 +30,7 @@ But first, I need to sharpen my existing skills and, of course, learn new ones. 
 - REST API design, HTTP, and status codes
 - Auth: password hashing (argon2/bcrypt), JWT, sessions, cookies
 
-**Frontend (keep it basic) I will AI :)**
+**Frontend (keep it basic — I will use AI for this :) )**
 
 - HTML, CSS, and JavaScript fundamentals
 - `fetch()` and handling streamed responses
