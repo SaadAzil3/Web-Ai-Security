@@ -4,6 +4,18 @@ This repository is where I document and share my learning journey in Web and AI 
 
 But first, I need to sharpen my existing skills and, of course, learn new ones. Here's my plan.
 
+## Repository Structure
+
+```
+.
+├── scripts/            # Security tools and automation I write (scanners, fuzzers, parsers)
+├── exploits/           # Proof-of-concept exploits (HTB, labs, my own vulnerable apps)
+├── vulnerable-apps/    # Apps built deliberately vulnerable to attack them (e.g. VulnBot)
+└── secure-apps/        # Hardened versions of those apps, using the same folder names
+```
+
+Write-ups and explanations go on my blog. Each Daily Log entry links to the related post.
+
 ## Main Project: VulnBot
 
 **VulnBot** is a chat app with an LLM assistant that has tools (read notes, fetch URLs, send emails) and a RAG knowledge base. I'll build it deliberately vulnerable, attack it, harden it, then publish both versions along with a pentest-style report.
@@ -21,7 +33,7 @@ But first, I need to sharpen my existing skills and, of course, learn new ones. 
 
 ## Skills I Need
 
-**Python and backend**
+**Python, backend, and Docker**
 
 - Python fundamentals: functions, classes, type hints, virtual environments, async/await
 - FastAPI: routing, dependency injection, Pydantic models
@@ -29,6 +41,7 @@ But first, I need to sharpen my existing skills and, of course, learn new ones. 
 - SQLAlchemy and Alembic: ORM and migrations
 - REST API design, HTTP, and status codes
 - Auth: password hashing (argon2/bcrypt), JWT, sessions, cookies
+- Docker: Dockerfiles, images, containers, volumes, and Docker Compose for multi-service apps
 
 **Frontend (keep it basic — I will use AI for this :) )**
 
@@ -48,7 +61,6 @@ But first, I need to sharpen my existing skills and, of course, learn new ones. 
 **Engineering habits**
 
 - Git and GitHub (branches, tags, pull requests)
-- Docker and Docker Compose
 - pytest for testing
 - GitHub Actions for CI
 - Linting with ruff, environment variables for secrets
@@ -71,8 +83,8 @@ But first, I need to sharpen my existing skills and, of course, learn new ones. 
 
 ## Learning Order
 
-1. Python + FastAPI + SQL (weeks 1–3)
-2. Docker, Git, auth (weeks 3–4)
+1. Python + FastAPI + SQL + Docker (weeks 1–3)
+2. Git, auth, Docker Compose (weeks 3–4)
 3. LLMs, Ollama, embeddings, RAG (weeks 4–6)
 4. React basics, only what I need for the chat UI (week 6)
 5. Security testing and hardening (weeks 7–10)
@@ -100,6 +112,8 @@ Right now I'm still learning penetration testing on HTB Academy and doing CTFs. 
 
 ## Daily Log
 
-| Date | What I did | Type |
-| ---- | ---------- | ---- |
-|      |            |      |
+| Date | What I did | Type | Blog |
+| ---- | ---------- | ---- | ---- |
+|      |            |      |      |
+
+**Type:** `script` · `exploit` · `vuln-app` · `secure-app` · `htb` · `learning`
