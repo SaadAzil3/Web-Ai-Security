@@ -23,4 +23,3 @@ postgres-data/
 .vscode/
 .idea/
 .DS_Store
-.gitignore
